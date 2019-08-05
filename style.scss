@@ -1,0 +1,54 @@
+/* Color Theme Swatches in Hex */
+$Taresso-Decaf-1-hex: #0C3640;
+$Taresso-Decaf-2-hex: #54B5BF;
+$Taresso-Decaf-3-hex: #99E9F2;
+$Taresso-Decaf-4-hex: #91F2F2;
+$Taresso-Decaf-5-hex: #0D0D0D;
+
+/* Color Theme Swatches in Hex */
+$Tattoo-Mall-1-hex: #F22738;
+$Tattoo-Mall-2-hex: #F2274C;
+$Tattoo-Mall-3-hex: #2585D9;
+$Tattoo-Mall-4-hex: #0AA67A;
+$Tattoo-Mall-5-hex: #F2C335;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.s1{
+    background: url(images/image1.jpg);
+    background-size: cover;
+    h1{
+        color: $Taresso-Decaf-5-hex;
+    }
+}
+
+.s2{
+    h1{
+        text-align: left;
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.s3{
+    background: url('images/image2.jpg');
+    background-size: cover;
+    h1{
+        text-align: right;
+        font-size: 1.5rem;
+    }
+}
+
+
+

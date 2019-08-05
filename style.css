@@ -1,0 +1,40 @@
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in Hex */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+.s1 {
+  background: url(images/image1.jpg);
+  background-size: cover;
+}
+
+.s1 h1 {
+  color: #0D0D0D;
+}
+
+.s2 h1 {
+  text-align: left;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.s3 {
+  background: url("images/image2.jpg");
+  background-size: cover;
+}
+
+.s3 h1 {
+  text-align: right;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=style.css.map */
